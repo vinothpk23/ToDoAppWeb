@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #F7F7F7;
+  }
+  
+  .navbar {
+    height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+  
+  .navbar h1 {
+    padding: 20px;
+    margin-left: 80px;
+  }
+  
+  .navbar h1 span {
+    color: #00A5EC;
+    text-align: left;
+    letter-spacing: 0px;
+  }
+  
+  .parent {
+    float: right;
+    margin-right: 360px;
+  }
+  
+  .child1 {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #00A5EC;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  .child1 p {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .child2 {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    margin-left: -30px;
+    vertical-align: middle;
+  }
+  
+  .child2 p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .child3 {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .child3 p {
+    font-size: 30px;
+    word-spacing: 0px;
+  }
+  
+  .child3 p span {
+    font-size: 30px;
+  }
+  
+  .child3 p img {
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    margin-top: -39px;
+    margin-left: -400px;
+    position: absolute;
+    float: left;
+  }
+  
+  .child4 {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .child4 p {
+    /* margin-top: -10px; */
+    position: absolute;
+    margin-left: -360px;
+  }
+  
+  .parent a {
+    text-decoration: none;
+  }
+  
+  .task a {
+    text-decoration: none;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    gap: 10px;
+    position: relative;
+    margin-top: 110px;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .flex>div {
+    height: 250px;
+    width: 250px;
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 8px;
+  }
+  
+  .flex>div h3 {
+    text-align: left;
+    margin-left: 20px;
+    color: #00A5EC;
+  }
+  
+  .flex .box1 a {
+    text-decoration: none;
+  }
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+  }
+  
+  .flex box6 {
+    background-color: #00A5EC;
+  }
+  
+  .check {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 5px;
+    color: #C2C2C2;
+    opacity: 1;
+  }
+  
+  /* .parent a:link{
+    text-decoration: none;
+    opacity: 1;
+  } */
+  
+  .div1 {
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .div2 {
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  #dashed {
+    text-decoration: line-through;
+  }
+  
+  .check input {
+    background-color: #eee;
+  }
+  
+  .parent2 {
+    filter: blur(1px);
+    background-color: lightgray;
+    opacity: 0.6;
+  }
+  
+  .task {
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    margin-top: -670px;
+    margin-left: 500px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  
+  .task p {
+    background-color: #00A5EC;
+    height: 20px;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+  }
+  
+  .task h3 {
+    /* padding: 10px; */
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  
+  .task span {
+    margin-left: 210px;
+    color: #858585;
+    opacity: 1;
+  }
+  
+  .task input {
+    padding-left: 10px;
+  }
+  
+  .task1 {
+    display: inline-block;
+  }
+  
+  .task2 {
+    display: inline-block;
+    font-size: 20px;
+    color: #C2C2C2;
+    margin-left: 180px;
+    padding: 20px;
+  }
+  
+  hr {
+    opacity: 0.3;
+  }
+  
+  .task input {
+    width: 92%;
+    margin-left: 9px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    height: 30px;
+  }
+  
+  #addtask {
+    height: 25px;
+    width: 150px;
+    background-color: #00A5EC;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 17px;
+    padding-top: 15px;
+  }
+  
+  .back {
+    display: inline;
+    float: right;
+    margin-top: 26px;
+    margin-right: 490px;
+  }
+  
+  .pchild1 {
+    display: inline;
+    float: right;
+    margin-right: -200px;
+  }
+  
+  
+  
+  
+  
+  @media only screen and (min-width:250px) and (max-width:657px) {
+    .flex {
+      flex-direction: column;
+      height: auto;
+      width: auto;
+    }
+  
+    .flex>div {
+      width: 95%;
+    }
+  
+    .box1 {
+      flex-direction: column;
+      height: auto;
+      width: 98%;
+    }
+  
+    .box2 {
+      flex-direction: column;
+      height: auto;
+      width: auto;
+    }
+  
+    .box3 {
+      flex-direction: column;
+      height: auto;
+      width: auto;
+    }
+  
+    .box4 {
+      flex-direction: column;
+      height: auto;
+      width: auto;
+    }
+  
+    .box5 {
+      flex-direction: column;
+      height: auto;
+      width: auto;
+    }
+  
+    .parent {
+      margin: auto;
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .pchild {
+      margin: auto;
+      position: absolute;
+      left: 160px;
+    }
+  
+    .child1 {
+      margin: 20px 0px 0px 0px;
+    }
+  
+    .child2 {
+      display: none;
+      float: left;
+    }
+  
+    .check {
+      height: auto;
+      width: 100%;
+    }
+  
+    .navbar {
+      margin: auto;
+      width: auto;
+    }
+  
+    .task {
+      margin: 10px;
+      position: absolute;
+      top: 230px;
+      width: auto;
+    }
+  
+    .task p {
+      margin: auto;
+      bottom: 50px;
+      right: 5px;
+    }
+  
+    .back {
+      margin: auto;
+      position: relative;
+      top: 20px;
+      left: 80px;
+    }
+    .pchild1{
+      margin: auto;
+      position: relative;
+      right: 118px;
+    }
+  }
+  
+  
+  
+  
+  /* .task {
+      margin: auto;
+      position: relative;
+    }
+    .task1 {
+      margin: auto;
+      width: auto;
+    }
+    .task2 {
+      margin: auto;
+      width: auto;
+    } */
+  }
